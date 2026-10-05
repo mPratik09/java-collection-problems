@@ -1,6 +1,5 @@
 package practice.collection.thinkitive.day1;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -10,7 +9,7 @@ public class FirstRepeating_03
 	public static void main(String[] args)
 	{
 		String str = "savavaJavsa";
-		int[] arr = { 13, 1, 4, 6, 2, 6, 2, 7, 8, 11, 0, 2, 2, 11, 11, 0 };
+		int[] arr = { 14, 1, 4, 6, 2, 4, 6, 2, 7, 8, 11, 0, 2, 2, 11, 11, 0, 14};
 
 		firstNonRepeatingCharacter(str);
 		firstNonRepeatingElement(arr);
